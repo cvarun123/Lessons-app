@@ -1,0 +1,22 @@
+<div *ngFor="let group of groupNames">
+  {{ group }}
+  <ul class="list-group">
+  <li *ngFor="let lesson of getGroupItems(group)" class="list-group-item">
+    <div class="row">
+      <div class="col-md-1">
+        <img [src]="lesson.subjectPhotoUrl">
+      </div>
+      <div class="col-md-6">
+        <b>{{ lesson.title }}</b>
+        <p>{{ lesson.description }}</p>
+      </div>
+      <div class="col-md-3">
+        <img [src]="lesson.instructorPhotoUrl">
+        {{ lesson.instructorName }}
+      </div>
+      <div class="col-md-2"></div>
+        {{ lesson.time }}
+    </div>
+  </li>
+</ul>
+</div>

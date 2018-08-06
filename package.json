@@ -1,0 +1,31 @@
+{
+  "name": "kaplan-test-prep",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wolfeidau/npmtest.git"
+  },
+  "keywords": [
+    "empty"
+  ],
+  "author": "empty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfeidau/npmtest/issues"
+  },
+  "homepage": "https://github.com/wolfeidau/npmtest#readme",
+  "dependencies": {
+    "@angular/cli": "^6.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
